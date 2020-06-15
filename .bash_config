@@ -1,0 +1,26 @@
+##############
+## CONFIGS ###
+##############
+
+# Configure terminal prompt 
+export PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H: [\W] $ \[$(tput sgr0)\]"
+
+# Set terminal to vim mode
+set -o vi
+
+##############
+## ALIASES ###
+##############
+
+alias nb="jupyter notebook"
+alias c="clear"
+alias ll="ls -halF"
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias e="exit"
+alias py="python"
+alias py3="python3"
+alias ipy="ipython"
+alias coa="conda activate"
+alias cod="conda deactivate"
